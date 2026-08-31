@@ -1,0 +1,13 @@
+{
+    "functions": {
+        "api/checkin.py": {
+            "maxDuration": 60
+        }
+    },
+    "crons": [
+        {
+            "path": "/",
+            "schedule": "2 0 * * *"
+        }
+    ]
+}
